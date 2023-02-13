@@ -1,0 +1,41 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    /* background-image: url(/images/pattern-background-desktop.svg); */
+    background-color: skyblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.info-container {
+    width: 80%;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+/* .buttons{
+    display: flex;
+    flex-direction: column;
+} */
