@@ -24,18 +24,51 @@ body {
 
 .hero-image {
     width: 100%;
+    height: 36%;
     border-radius: 15px 15px 0 0;
 }
 
 .info-container {
     width: 80%;
+    height: 64%;
 }
 
 h1 {
     font-weight: 900;
 }
 
+p {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    display: flex;
+}
+
+.plan-contianer {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-icon{
+    margin-right: 4%;
+}
+
+a {
+    
+}
+
 /* .buttons{
     display: flex;
     flex-direction: column;
 } */
+
+
+.my-colors {
+    color: hsl(225, 100%, 94%);
+    color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    color: hsl(223, 47%, 23%);
+}
